@@ -76,7 +76,6 @@ def G(w):
     Kp= 0.503  #process or disturbance gain here
     tau= 12.4  # time constant here
     Kc = 1
-    #TODO: #your function here; 1j is the syntax for sqrt(-1)
     Gol = Kp**3*Kc*(1-tau*1j*w)**3/(1+tau**2*w**2)**3
     return  Gol
 
@@ -120,7 +119,6 @@ def G(w):
     Kp= 0.503  #process or disturbance gain here
     tau= 12.4  # time constant here
     Kc = 63
-    #TODO: #your function here; 1j is the syntax for sqrt(-1)
     Gol = Kp**3*Kc*(1-tau*1j*w)**3/(1+tau**2*w**2)**3
     return  Gol
 
@@ -189,7 +187,6 @@ def G(w):
     Kp= 1  #process or disturbance gain here
     tau= 7.9 # time constant here
     Kc = 1
-    #TODO: #your function here; 1j is the syntax for sqrt(-1)
     Gol = Kp*Kc/((tau*1j*w+1)**2)
     return  Gol
 
@@ -197,7 +194,6 @@ def singleTank(w):
     Kp= 1  #process or disturbance gain here
     tau =7.9 # time constant here
     Kc = 1
-    #TODO: #your function here; 1j is the syntax for sqrt(-1)
     Gol = 1/(tau*w*1+1)
     return  Gol
 
