@@ -1,4 +1,4 @@
-# ProcessControlProject
+# ProcessControlAssignment
 This project uses a root solver to find complex roots and create a root locus plot in order to determine what values the controller will be stable at. A bode stability analysis is also done using Matplotlib to determine stability. 
 
 Before You Run:
