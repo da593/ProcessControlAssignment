@@ -1,5 +1,5 @@
 # ProcessControlAssignment
-This project uses a root solver to find complex roots and create a root locus plot in order to determine what values the controller will be stable at. A bode stability analysis is also done using Matplotlib to determine stability. 
+This assignment uses a root solver to find complex roots and to create a root locus plot in order to determine what values the controller will be stable at. A bode stability analysis is also done using Matplotlib to determine stability. 
 
 Before You Run:
 1. This project has two files, a .ipynb file and .py file. Choose either file to run. The code is originally written and ran through the .ipynb file.
